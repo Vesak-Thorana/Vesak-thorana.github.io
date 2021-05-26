@@ -1,0 +1,709 @@
+.only-web {
+   display: block; 
+}
+
+.only-mobile {
+    display: none;
+}
+
+a {
+    background-color: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, a, button {
+    background-color: transparent !important;
+}
+
+.wired img {
+    width: 35px;
+    margin-right: 10px;
+    height: 35px;
+
+}
+
+.wired:hover a {
+    border-radius: 50px;
+    -webkit-animation: pulse 2s linear 1s infinite;
+    filter: drop-shadow(0 0 0.75rem #0056a4);
+}
+
+.wireless img {
+    width: 35px;
+    margin-left: 10px;
+    height: 35px;
+}
+
+.wireless:hover a {
+    border-radius: 50px;
+    -webkit-animation: pulse 2s linear 1s infinite;
+    filter: drop-shadow(0 0 0.75rem #4db848);
+}
+
+.wired a {
+    border: 2px solid #1575cc;
+    display: flex;
+    background-color: #0056a4 !important;
+    border-radius: 50px;
+    padding: 8px 22px 8px 18px;
+}
+
+.wireless a {
+    border: 2px solid #68d263;
+    display: flex;
+    background-color: #4db848 !important;
+    border-radius: 50px;
+    padding: 8px 18px 8px 22px;
+}
+
+.wired h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+
+.wireless h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+
+.wired {
+    position: absolute;
+    vertical-align: middle;
+    top: 58%;
+    right: 680px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wireless {
+    position: absolute;
+    vertical-align: middle;
+    top: 58%;
+    left: 670px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width:1300px) {
+    
+    .land-wrapper .logo-wrapper {
+        width: 320px;
+        margin: 0 auto;
+        position: relative;
+        margin-top: -80px;
+    }
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: 50%;
+        width: 0px;
+        right: 350px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wired {
+        position: absolute;
+        vertical-align: middle;
+        top: 68%;
+        right: 580px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right {
+        position: absolute;
+        vertical-align: middle;
+        top: 50%;
+        width: 0px;
+        left: 350px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wireless {
+        position: absolute;
+        vertical-align: middle;
+        top: 65%;
+        left: 570px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+}
+
+@media (max-width: 1160px) { 
+    
+    .land-wrapper .logo-wrapper {
+        width: 280px;
+        margin: 0 auto;
+        position: relative;
+        margin-top: -80px;
+    }
+    
+    .show-lines .line-left {
+        width: 220px !important;
+        transition: linear all 1s 4.2s;
+    }
+    
+    .wired {
+        position: absolute;
+        vertical-align: middle;
+        top: 68%;
+        right: 490px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wireless h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 4px;
+    }
+    
+    .wireless img {
+        width: 30px;
+        margin-left: 10px;
+        height: 30px;
+    }
+    
+    .wired img {
+        width: 30px;
+        margin-right: 10px;
+        height: 30px;
+    }
+    
+    .wired h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 4px;
+    }
+    
+    .wireless {
+        position: absolute;
+        vertical-align: middle;
+        top: 65%;
+        left: 490px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: 50%;
+        width: 0px;
+        right: 290px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .show-lines .line-right {
+        width: 220px !important;
+        transition: linear all 1s 4.2s;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right {
+        position: absolute;
+        vertical-align: middle;
+        top: 50%;
+        width: 0px;
+        left: 290px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+}
+
+
+@media (max-width:991px) { 
+    
+    .wireless h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 7px;
+    }
+    
+    .wireless img {
+        width: 35px;
+        margin-left: 10px;
+        height: 35px;
+    }
+    
+    .wired img {
+        width: 35px;
+        margin-right: 10px;
+        height: 35px;
+    }
+    
+    .wired h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 7px;
+    }
+    
+    body {
+        background-color: #0d1238;
+    }
+    
+    .land-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/mobile.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .land-wrapper .logo-wrapper {
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: -80px;
+    }
+    
+    .wired {
+        position: relative;
+        vertical-align: middle;
+        top: auto;
+        right: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: auto;
+        width: 0px;
+        right: auto;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .wireless {
+        position: relative;
+        vertical-align: middle;
+        top: auto;
+        left: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right {
+        position: absolute;
+        vertical-align: middle;
+        top: 50%;
+        width: auto;
+        left: 50%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/mobile.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .only-web {
+       display: none; 
+    }
+    
+    .only-mobile {
+        display: block;
+    } 
+    
+    .show-lines .line-right {
+        transition: linear all 1s 4.2s;
+        width: auto !important;
+        opacity: 1 !important;
+    }
+    
+    .show-lines .line-left {
+        width: auto !important;
+        transition: linear all 1s 4.2s;
+        opacity: 1 !important;
+    }
+    
+    .wireless {
+        position: absolute;
+        vertical-align: middle;
+        top: 380px;
+        left: 38%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wired {
+        position: absolute;
+        vertical-align: middle;
+        bottom: 285px;
+        right: 25%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: auto;
+    }
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: -110px;
+        width: 0px;
+        right: 38%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right {
+        position: absolute;
+        vertical-align: middle;
+        top: 180px;
+        width: auto;
+        left: 50%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    
+}
+
+
+@media (max-width:767px) { 
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: -150px;
+        width: 0px;
+        right: 38%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right {
+        position: absolute;
+        vertical-align: middle;
+        top: 125px;
+        width: auto;
+        left: 50%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wireless {
+        position: absolute;
+        vertical-align: middle;
+        top: 330px;
+        left: 30%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+}
+
+
+@media (max-width:575px) {
+    
+    .land-wrapper .logo-wrapper .line-left img {
+        float: right;
+        height: 120px;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right img {
+        height: 120px;
+    }
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: -100px;
+        width: 0px;
+        right: 38%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wired h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 4px;
+    }
+    
+    .wired img {
+        width: 30px;
+        margin-right: 10px;
+        height: 30px;
+    }
+    
+    .wireless img {
+        width: 30px;
+        margin-left: 10px;
+        height: 30px;
+    }
+    
+    .wireless h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 4px;
+    }
+    
+    .wired a {
+        border: 2px solid #1575cc;
+        display: flex;
+        background-color: #0056a4 !important;
+        border-radius: 50px;
+        padding: 8px 30px 8px 25px;
+    }
+    
+    .wireless a {
+        border: 2px solid #68d263;
+        display: flex;
+        background-color: #4db848 !important;
+        border-radius: 50px;
+        padding: 8px 25px 8px 30px;
+    }
+    
+    .wired {
+        position: absolute;
+        vertical-align: middle;
+        bottom: 230px;
+        right: 22%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: auto;
+    }
+    
+    .wireless {
+        position: absolute;
+        vertical-align: middle;
+        top: 270px;
+        left: 23%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+}
+
+
+@media (max-width:420px) {
+    
+    .wired img {
+        width: 30px;
+        margin-right: 15px;
+        height: 30px;
+    }
+    
+    .wireless img {
+        width: 30px;
+        margin-left: 15px;
+        height: 30px;
+    }
+    
+    .land-wrapper .logo-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: -80px;
+    }
+    
+}
+
+
+@media (max-width:375px) { 
+    
+    .land-wrapper .logo-wrapper .line-left img {
+        float: right;
+        height: 100px;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right img {
+        height: 100px;
+    }
+    
+    .land-wrapper .logo-wrapper .line-left {
+        position: absolute;
+        vertical-align: middle;
+        top: -60px;
+        width: 0px;
+        right: 40%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .land-wrapper .logo-wrapper .line-right {
+        position: absolute;
+        vertical-align: middle;
+        top: 110px;
+        width: auto;
+        left: 50%;
+        height: auto;
+        opacity: 0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .wired img {
+        width: 23px;
+        margin-right: 10px;
+        height: 23px;
+    }
+    
+    .wired h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 1px;
+    }
+    
+    .wired a {
+        border: 2px solid #1575cc;
+        display: flex;
+        background-color: #0056a4 !important;
+        border-radius: 50px;
+        padding: 5px 20px 5px 16px;
+    }
+    
+    .wired {
+        position: absolute;
+        vertical-align: middle;
+        bottom: 175px;
+        right: 28%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: auto;
+    }
+    
+     .wireless img {
+        width: 23px;
+        margin-left: 10px;
+        height: 23px;
+    }
+    
+    .wireless h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+        line-height: 22px;
+        margin-top: 1px;
+    }
+    
+    .wireless a {
+        border-radius: 50px;
+        padding: 5px 20px 5px 16px;
+    }
+    
+    .wireless {
+        position: absolute;
+        vertical-align: middle;
+        top: 220px;
+        left: 28%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+}
